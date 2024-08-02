@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-from typing import List, Tuple, Sequence
+from typing import List, Tuple
 
 """
 This module defines a an appropriately annotated function parameters
