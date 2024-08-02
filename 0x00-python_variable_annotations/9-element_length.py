@@ -7,7 +7,7 @@ and return values
 """
 
 
-def element_length(lst: Iterable[Sequence]) -> List[Tuple[Sequence, int]]:
+def element_length(lst: List[str]) -> List[Tuple[str, int]]:
     """
     Args:
         lst (list): A list of sequences (e.g., strings).
