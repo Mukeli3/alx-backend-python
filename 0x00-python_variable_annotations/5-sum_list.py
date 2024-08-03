@@ -9,8 +9,8 @@ and returns their sum as float
 def sum_list(input_list: List[float]) -> float:
     """ Returns list sum as a float
     Args:
-       input_list - the list
-    Return:
-       the list sum as a float
+        input_list - the list
+    Returns:
+        the list sum as a float
     """
     return sum(input_list)
