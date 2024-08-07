@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 from typing import List
 """
-This module defines a type-annotated function which takes a list of floats
-as argument and returns their sum as float
+This module defines a type-annotated function, sum_list which takes a
+list of floats, input_list as argument and returns their sum as float
 """
 
 
