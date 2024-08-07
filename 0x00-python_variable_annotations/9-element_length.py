@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-from typing import List, Tuple
+from typing import List, Tuple, Sequence, Iterable
 
 """
 This module defines a an appropriately annotated function parameters
@@ -7,10 +7,10 @@ and return values
 """
 
 
-def element_length(lst: List[str]) -> List[Tuple[str, int]]:
+def element_length(lst: Iterable[Sequence]) -> List[Tuple[Sequence, int]]:
     """
     Args:
-        lst (list): A list of sequences (e.g., strings).
+        lst (list): A list of sequences (e.g. strings).
 
     Returns:
         list: A list of tuples where each tuple contains a sequence from
