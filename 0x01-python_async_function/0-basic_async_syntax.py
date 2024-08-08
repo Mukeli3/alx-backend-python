@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
+"""
+This module defines an asynchronous coroutine that takes in an integer
+argument, with a default value of 10, that waits for a random delay between
+0 and the int argument secs and eventually returns it
+"""
 import asyncio
 import random
-"""
-Module defines an asynchronous coroutine that takes in an integer argument,
-with a default value of 10, that waits for a random delay between 0 and
-the int argument secs and eventually returns it
-"""
 
 
 async def wait_random(max_delay: int = 10) -> float:
