@@ -9,7 +9,6 @@ import random
 from typing import Generator
 
 
-
 async def async_generator() -> Generator[float, None, None]:
     """ Yields random numbers with delays asynchronously
     Yields:
