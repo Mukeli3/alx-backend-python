@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-import asyncio
-import time
-async_comprehension = __import__('1-async_comprehension').async_comprehension
 """
 This module defines a coroutine measure_routine that executes
 async_comprehension, imported from previous file, four times using
 asyncio.gather, it measures and returns the total runtime
 """
+import asyncio
+import time
+async_comprehension = __import__('1-async_comprehension').async_comprehension
 
 
 async def measure_runtime() -> float:
