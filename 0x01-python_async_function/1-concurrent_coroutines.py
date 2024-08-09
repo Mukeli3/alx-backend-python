@@ -22,6 +22,9 @@ async def wait_n(n: int, max_delay: int) -> List[float]:
     Returns:
         A list of the delays in ascending order.
     """
-    tasks = [wait_random(max_delay) for _ in range(n)]  # creating async tasks using list comprehension, _ indicates that the loop variable is not used
-    res = await asyncio.gather(*tasks)  # start multiple tasks at once and wait for all of them to finish before collecting their outputs
-    return sorted(res)  # sorted(), creates a new sorted list from an iterable (lists, tuples nk), doesn't modify original iterable
+    tasks = [wait_random(max_delay) for _ in range(n)]  # creating async tasks
+    # using list comprehension, _ indicates that the loop variable is not used
+    res = await asyncio.gather(*tasks)  # start multiple tasks at once and
+    # wait for all of them to finish before collecting their outputs
+    return sorted(res)  # sorted(), creates a new sorted list from an iterable
+    # (lists, tuples nk), doesn't modify original iterable
