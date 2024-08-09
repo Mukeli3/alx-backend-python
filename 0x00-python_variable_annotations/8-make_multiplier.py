@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-from typing import Callable
 """
 This module defines a type-annotated function that takes a float as arg
 and returns a function that multiplies a float by the arg
 """
+from typing import Callable
 
 
 def make_multiplier(multiplier: float) -> Callable[[float], float]:
