@@ -8,7 +8,6 @@ and should be annotated as a float
 from typing import Tuple, Union
 
 
-
 def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
     """Converts a key-value pair to a tuple.
 
